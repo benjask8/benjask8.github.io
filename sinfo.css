@@ -1,0 +1,68 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+header{
+    display: flex;
+    min-height: 70px;   
+    background-color: rgb(89, 174, 253);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    align-items: center;
+    display: flex;
+}
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+nav a:hover{
+    color: white;
+}
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
+footer {
+	position:absolute;
+	height:50px;
+	line-height:50px;
+	background:black;
+	color:white;
+	text-align:center;
+	left:0;
+	width:100%;
+  }
+  
+footer.bottom {
+	bottom:0;
+}
+.testimonio{
+    display: flex;
+}
+.empresario{
+    margin: 40px;
+    width: 400px;
+}
+.blabla{
+    width: 500px;
+    margin-top: 100px;
+    font-family: sans-serif;
+}
+.einfo{
+    margin-left: 130px;
+}
